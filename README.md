@@ -7,7 +7,6 @@ Table of Contents
 
 - Game Overview
 - Requirements
-- Usage
 - Game Rules
 - Contributing
 
