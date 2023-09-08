@@ -21,7 +21,6 @@ Python 3.x installed on your computer.
 Git / Github for version control
 
 __Rules__
-Game Rules
 
 The game follows the traditional rules of War:
 
