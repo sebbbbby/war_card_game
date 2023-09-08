@@ -27,8 +27,13 @@ class Player:
         self.hand = random.sample(deck, num_cards)
         for card in self.hand:
             deck.remove(card)
+
+    def play_card(self):
+        # Play a card from the player's hand
+        return self.hand.pop(0)
+
     """we will be implementing most of the game play in player since we need to play a card, add/subtract a card from our own deck."""
-    
+
     """lets implement the compare and "pot" to the player as well to simplify but may be better to add to the Card Class?"""
 
 
@@ -37,11 +42,11 @@ def main():
     player1 = Player(game.deck, 26)
     player2 = Player(game.deck, 26)
     """not fully working but wanted to brainstorm the While Loop"""
-    while len(player1.hand) < 52 and len(player2.hand) < 52:
-        card1 = player1.hand[0]
-        card2= player2.hand[0]
-        ...
-    print()
+    # while len(player1.hand) < 52 and len(player2.hand) < 52:
+    #     card1 = player1.hand[0]
+    #     card2= player2.hand[0]
+    #     ...
+    # print(player1.hand[0].value)
 
 
 if __name__ == "__main__":
