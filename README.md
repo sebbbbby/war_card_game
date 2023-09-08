@@ -1,25 +1,24 @@
-
 # War Turing College Project
 
 This Python program implements the classic children's card game called "War" using Object-Oriented Programming (OOP) principles. The game can be played in various ways, and this README provides an overview of how to use and play the game.
 
 Table of Contents
 
-- Game Overview
-- Requirements
-- Game Rules
-- Contributing
+-   Game Overview
+-   Requirements
+-   Game Rules
+-   Contributing
 
 # Game Overview
 
 In the game of War, two players compete by drawing cards from their respective decks. The player with the highest card wins the round and takes both cards. The game continues until one player runs out of cards, and the other player wins.
 
-__Requirements__
+**Requirements**
 
 Python 3.x installed on your computer.
 Git / Github for version control
 
-__Rules__
+**Rules**
 
 The game follows the traditional rules of War:
 
@@ -43,12 +42,13 @@ In case of a tie (both players draw cards of the same rank), a "war" is declared
 The game continues until one player runs out of cards. The player with cards remaining wins.
 
 # Implementation
+
     1) Create Classes for the Game, Player, Deck and Cards
-    2) Create game loop to implement START GAME
-    3) Distribute Cards equally 
-    4) One card per player will be revealed (printed) and compared, winner takes both function
+    2) Distribute Cards equally (Have Players able to keep and exchange cards as needed)
+    3) Create game loop to implement START GAME
+    4) One card per player will be revealed (printed) and compared, winner takes both function (print function)
     5) Continue and evalute cards at play till game complete
+
 ## Contributing
 
-__Add your name here!__
-
+**Add your name here!**
